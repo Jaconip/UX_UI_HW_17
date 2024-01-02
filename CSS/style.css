@@ -51,7 +51,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:(gold);
-    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -70,12 +69,13 @@
     text-transform: capitalize;
     text-decoration: none;
 }
-
-.topnav a.active {
-  color: gold;
-  color: white;
+#ProfilePicture2 {
+   display: flex;
+   justify-content: center;
 }
-
+.Center-content {
+    text-align: center;
+}
 .topnav-right {
   float: right;
 }
@@ -83,11 +83,16 @@
 .image-center {
     align-items: center;
 }
-
+.linkedin {
+    padding:0px;
+}
 .footernav {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
-    float: right;
+    justify-content: space-between;
+    float:inline-end;
+    flex-direction: row;
+    
 }
 
 
